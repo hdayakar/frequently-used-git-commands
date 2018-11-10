@@ -85,6 +85,7 @@ Type q to exit this screen.
 
 ----
 ### Sample commit history
+```
 `commit af42dfac081b71d1790bfd67f5ed2eefb9ac0440`
 `Merge: e5bc173 17ce323`
 `Author: user <user@email.com>`
@@ -99,6 +100,7 @@ Type q to exit this screen.
 `    added employment verification and summary generated report`
 
 The history shows you, for each commit entry, detailed information about the commit, as well as 40-character checksum hash (e.g., 7a518xxxxxx).
+```
 
 * The --oneline flag condenses each commit to a single line. By default, it displays only the commit ID and the first line of the commit message.
 `git log --oneline`
